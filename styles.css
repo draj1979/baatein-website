@@ -51,6 +51,8 @@ p { margin: 0 0 1em; }
 .nav-cta { display: flex; align-items: center; gap: 18px; }
 .menu-btn { display: none; align-items: center; justify-content: center; width: 42px; height: 42px; background: none; border: 1px solid rgba(255, 255, 255, 0.25); color: #fff; border-radius: 10px; padding: 9px; cursor: pointer; }
 .menu-btn svg { display: block; width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.menu-btn .close-icon, .menu-btn[aria-expanded="true"] .menu-icon { display: none; }
+.menu-btn[aria-expanded="true"] .close-icon { display: block; }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; font: inherit; font-weight: 600; font-size: 0.95rem; padding: 12px 22px; border-radius: 12px; border: 1px solid transparent; cursor: pointer; text-decoration: none; transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease; white-space: nowrap; }
