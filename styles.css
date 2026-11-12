@@ -191,3 +191,10 @@ section.band.alt { background: var(--surface); }
 .company-text { color: var(--muted); margin: 0; }
 .bio { margin: 0 0 10px; }
 .footer address { font-style: normal; }
+
+/* WhatsApp entry points */
+.btn.wa::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--wa-green); box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.25); }
+.wa-float { position: fixed; right: 20px; bottom: 20px; z-index: 60; display: inline-flex; align-items: center; gap: 10px; background: #1fa855; color: #fff; padding: 12px 18px 12px 14px; border-radius: 999px; font-weight: 600; font-size: 0.92rem; box-shadow: 0 10px 28px rgba(15, 80, 40, 0.35); }
+.wa-float:hover { background: #188a46; text-decoration: none; }
+.wa-float svg { width: 24px; height: 24px; }
+@media (max-width: 600px) { .wa-float span { display: none; } .wa-float { padding: 14px; right: 14px; bottom: 14px; } }
