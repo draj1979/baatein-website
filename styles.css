@@ -198,3 +198,7 @@ section.band.alt { background: var(--surface); }
 .wa-float:hover { background: #188a46; text-decoration: none; }
 .wa-float svg { width: 24px; height: 24px; }
 @media (max-width: 600px) { .wa-float span { display: none; } .wa-float { padding: 14px; right: 14px; bottom: 14px; } }
+
+/* Founder photos */
+.photo { flex: none; width: 88px; height: 88px; border-radius: 20px; object-fit: cover; background: var(--indigo-soft); box-shadow: 0 4px 14px rgba(20, 26, 46, 0.15); }
+@media (max-width: 600px) { .person { flex-direction: column; } }

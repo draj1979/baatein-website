@@ -1,6 +1,6 @@
-# Baatein website
+# Smartleads website
 
-Marketing site for Baatein, WhatsApp AI agents by Inferex Pvt Ltd. Plain HTML, CSS and a few lines of JavaScript: no build step, no dependencies.
+Marketing site for Smartleads, WhatsApp AI agents by Inferex Pvt Ltd. Plain HTML, CSS and a few lines of JavaScript: no build step, no dependencies.
 
 - `index.html`, `styles.css`, `main.js`: the page
 - `assets/logo.svg`: the robot logo (also the favicon)
