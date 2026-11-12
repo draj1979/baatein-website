@@ -1,5 +1,15 @@
 // Mobile menu, current year. No inline scripts, so the site can run under a strict Content-Security-Policy.
 (function () {
+  var header = document.querySelector(".site-header");
+  var hero = document.querySelector(".hero");
+  function updateHeader() {
+    if (!header || !hero) return;
+    header.classList.toggle("is-scrolled", window.scrollY >= hero.offsetHeight - header.offsetHeight);
+  }
+  updateHeader();
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  window.addEventListener("resize", updateHeader);
+
   var btn = document.getElementById("menu-btn");
   var nav = document.getElementById("nav-links");
   if (btn && nav) {
