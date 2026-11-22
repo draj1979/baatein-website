@@ -101,6 +101,7 @@ section.band.alt { background: var(--surface); }
 .section-head p { color: var(--muted); font-size: 1.05rem; margin: 14px 0 0; }
 .grid { display: grid; gap: 20px; }
 .grid.c3 { grid-template-columns: repeat(3, 1fr); }
+.grid.team-grid.c3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .grid.c4 { grid-template-columns: repeat(4, 1fr); }
 .grid.c2 { grid-template-columns: repeat(2, 1fr); }
 .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
